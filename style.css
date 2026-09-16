@@ -1,0 +1,182 @@
+```css id="7f3q2m"
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+
+/* Navigation */
+
+nav {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #00adb5;
+}
+
+
+/* All Sections */
+
+section {
+    max-width: 900px;
+    margin: auto;
+    padding: 80px 30px;
+}
+
+
+/* Home */
+
+#home {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#home h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#home a {
+    text-decoration: none;
+    color: #008c95;
+    font-weight: bold;
+}
+
+
+/* Section Headings */
+
+section h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+/* About */
+
+#about p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+
+/* Experience */
+
+#experience h3 {
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+#experience p {
+    margin-bottom: 15px;
+}
+
+#experience ul {
+    margin-left: 25px;
+}
+
+
+/* Education */
+
+#education h3 {
+    font-size: 23px;
+    margin-top: 25px;
+}
+
+
+/* Skills */
+
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+}
+
+#skills li {
+    background-color: #222;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 20px;
+}
+
+
+/* Projects */
+
+#projects h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#projects p {
+    margin-bottom: 15px;
+}
+
+
+/* Profiles */
+
+#profiles {
+    text-align: center;
+}
+
+#profiles a {
+    color: #008c95;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* Contact */
+
+#contact {
+    text-align: center;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+```
